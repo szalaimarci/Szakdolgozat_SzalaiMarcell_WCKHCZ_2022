@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_brown"
+    tools:context=".Info">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="567dp"
+        android:breakStrategy="balanced"
+        android:text="ÚTMUTATÓ AZ APP HASZNÁLATÁHOZ: \n\n\n    ●A felhasználó bejelentkezését követően lehetőség nyílik az ellenőrizni kívánt termék vonalkódjának kamerával történő beolvasására, illetve kézi bevitellel történő megadására. Ezt követően a termék jelenleg látott árát kézzel kell begépelnünk. Ha ezzel megvagyunk, akkor az app feltölti a látott árunkat és megjeleníti számunkra a beolvasott termékünk más helyszíneken, más felhasználók által feltöltött árait. Ezeket látva döntsük el, hogy érdemes-e megvennünk a terméket, vagy a közeljövőben járunk valamely másik üzletben, ahol olcsóbban beszerezhetjük. \n    ●A megjelenített árakra kattintva megtekinthetjük a boltok helyszínét térkép nézetben. \n    ●Ha egy nem valós árral találkozunk, akkor az árak melletti menüben található 'Ár jelentése' gombra kattintva jelenthetjük. Ekkor egy ⚠ szimbólum jelenik meg az árnál, jelezve a felhasználóknak, hogy lehet már nem aktuális az ár/esetleg alapból tévesen lett megadva. \n    ●A fenti ⌂ ikonnal  változtathatjuk a listázott árak helyszínét megegyező városról globálisra. \n    ●A jobb sarokban lévő menü gomb alatt található Beállítások füllel a felhasználó adatait módosíthatjuk, a Kijelentkezéssel pedig az alkalmazásból léphetünk ki."
+        android:textAlignment="viewStart"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+</ScrollView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@color/light_brown"
+    app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/priceTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="106dp"
+            android:layout_marginEnd="105dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Termék ára"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/placeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/priceTitle"
+            android:padding="8dp"
+            android:text="Helyszín"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/dateTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/placeTitle"
+            android:padding="8dp"
+            android:text="Dátum"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textViewOptions"
+            android:layout_width="14dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:text="&#8942;"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageViewW"
+            android:layout_width="51dp"
+            android:layout_height="45dp"
+            android:layout_alignEnd="@+id/textViewOptions"
+            android:layout_alignBottom="@+id/priceTitle"
+            android:layout_marginEnd="-10dp"
+            android:layout_marginBottom="-80dp"
+            app:srcCompat="@drawable/ic_baseline_warning"
+            android:visibility="invisible"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

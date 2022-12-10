@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Árkereső</string>
+    <string name="userName">Felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="emailAddress">Email cím</string>
+    <string name="cancel">Mégse</string>
+    <string name="passwordAgain">Jelszó megerősítése</string>
+
+
+</resources>
